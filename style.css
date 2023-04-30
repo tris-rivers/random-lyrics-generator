@@ -1,0 +1,76 @@
+body{
+  background-color: #FA8383;
+}
+
+h1{
+  font-family: Questrial;
+  color: #FFE4B3;
+  font-weight: bolder;
+  margin-top: 10%
+}
+
+.box{
+  padding: 0px  40px 40px 40px;
+  margin:10% auto auto auto;
+  border-radius: 3px;
+  background-color: #FFE4B3;
+  width: 700px;
+  display: table;
+  position: relative;
+}
+
+
+.quote-font{
+  font-family: Questrial;
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+  color: #623448;
+}
+
+.button{
+  margin: 4px 2px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 18px;
+  background-color:#FA8383;
+  color:#FFE4B3;
+  font-family: Questrial;
+  font-size: 16px;
+  display: block;  
+  transition-duration: .4s;
+  cursor: pointer;
+  float: right;
+}
+.button1{
+  background-color:#FA8383;
+  color: #FFE4B3;
+}
+.button1:hover{
+  background-color: #FFE4B3;
+  border: 3px solid #FA8383;
+  color: #FA8383;
+}
+
+.animated {
+  background-image: url(/css/images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top:95px;
+  margin-bottom:60px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+         
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+         
